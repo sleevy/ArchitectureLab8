@@ -1,9 +1,9 @@
 <resources>
     <string name="app_name">ArchitectureLab8</string>
-    <string name="text_null_sensor">Sensor is disabled/not present.</string>
-    <string name="text_pressure_sensor">Pressure Sensor</string>
-    <string name="text_humidity_sensor">Humidity Sensor</string>
-    <string name="text_temperature_sensor">Temperature Sensor</string>
+    <string name="text_null_sensor">N/A</string>
+    <string name="text_pressure_sensor">Ambient Pressure</string>
+    <string name="text_humidity_sensor">Humidity</string>
+    <string name="text_temperature_sensor">Ambient Temperature</string>
     <string name="text_default">Default Text</string>
-    <string name="text_light_sensor">Light Sensor</string>
+    <string name="text_light_sensor">Light Level</string>
 </resources>

@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
-            Toast.makeText(getApplicationContext(), sensorName + "Accuracy Changed", Toast.LENGTH_SHORT).show();
+            Toast.makeText(getApplicationContext(), sensorName + " Accuracy Changed", Toast.LENGTH_SHORT).show();
         }
 
         protected void onResume() {
