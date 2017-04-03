@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.georgiasouthern.cr04956.architecturelab8.MainActivity">
+
+    <TextView
+        android:id="@+id/txtLight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_light_sensor"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.099" />
+
+    <TextView
+        android:id="@+id/txtTemperatureVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/text_default"
+        app:layout_constraintLeft_toLeftOf="@+id/txtPressureVal"
+        app:layout_constraintTop_toTopOf="@+id/txtTemperature" />
+
+    <TextView
+        android:id="@+id/txtPressureVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/text_default"
+        app:layout_constraintLeft_toLeftOf="@+id/txtHumidityVal"
+        app:layout_constraintTop_toTopOf="@+id/txtPressure" />
+
+    <TextView
+        android:id="@+id/txtHumidityVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/text_default"
+        app:layout_constraintLeft_toLeftOf="@+id/txtLightVal"
+        app:layout_constraintTop_toTopOf="@+id/txtHumidity" />
+
+    <TextView
+        android:id="@+id/txtLightVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-1dp"
+        android:text="@string/text_default"
+        app:layout_constraintLeft_toRightOf="@+id/txtLight"
+        app:layout_constraintTop_toTopOf="@+id/txtLight" />
+
+    <TextView
+        android:id="@+id/txtTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/text_temperature_sensor"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/txtPressure"
+        app:layout_constraintTop_toBottomOf="@+id/txtPressure" />
+
+    <TextView
+        android:id="@+id/txtPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/text_pressure_sensor"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/txtHumidity"
+        app:layout_constraintTop_toBottomOf="@+id/txtHumidity" />
+
+    <TextView
+        android:id="@+id/txtHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/text_humidity_sensor"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="@+id/txtLight"
+        app:layout_constraintTop_toBottomOf="@+id/txtLight" />
+
+</android.support.constraint.ConstraintLayout>
